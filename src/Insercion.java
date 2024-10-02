@@ -19,7 +19,7 @@ public class Insercion {
         return arreglo;
     }
     public void printArreglo(int[]arreglo){
-        for (int elemento : arreglo){ //for each el arreglo va instanciando cada elemento del arreglo se va almacenando
+        for (int elemento : arreglo){
             System.out.print(elemento + ",");
         }
     }
